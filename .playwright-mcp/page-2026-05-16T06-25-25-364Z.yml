@@ -1,0 +1,22 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - heading "ToDo リスト" [level=1] [ref=e4]
+    - generic [ref=e5]: "1"
+  - generic [ref=e6]:
+    - textbox "タスクを入力..." [ref=e7]
+    - generic [ref=e8]:
+      - button "＋ メモを追加" [ref=e9] [cursor=pointer]
+      - button "追加" [ref=e10] [cursor=pointer]
+  - generic [ref=e11]:
+    - img
+    - textbox "タスクを検索..." [ref=e12]
+  - generic [ref=e13]:
+    - button "全て" [ref=e14] [cursor=pointer]
+    - button "未完了" [ref=e15] [cursor=pointer]
+    - button "完了" [ref=e16] [cursor=pointer]
+  - generic [ref=e18]:
+    - img [ref=e20]
+    - checkbox [ref=e27] [cursor=pointer]
+    - paragraph [ref=e29]: Playwright MCPでテスト作成したタスク
+    - button "タスクを削除" [ref=e30] [cursor=pointer]:
+      - img [ref=e31]
